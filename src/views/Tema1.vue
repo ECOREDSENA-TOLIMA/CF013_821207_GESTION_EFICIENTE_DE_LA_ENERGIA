@@ -447,6 +447,108 @@
     #t_1_6.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 1.6 Recopilación de datos de la energía
 
+    p(data-aos="fade-right") La recopilación de datos de la energía es de suma importancia para reconocer la eficiencia energética, por eso le invitamos a explorar el siguiente recurso:
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
+      div.mt-2.col-12.d-flex.align-items-center.mb-4.mt-3.position-relative(style="z-index:1000 !important" data-aos="fade-right")    
+        div.p-0.position-relative   
+          img.mb-0.position-relative(src="@/assets/curso/iconos/ico-01.svg")
+        div.px-3.pe-5
+          h4.mb-0 Recopilación de datos de la energía
+      .col-12(data-aos="fade-down")
+        .row.justify-content-center.align-items-center
+          .col-md-4.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-25.png', alt='')  
+          .col-md-8.col-12
+            p Durante la etapa de planificación del SGEn, es de vital importancia determinar la cantidad y la forma en que se deben recolectar los datos requeridos para la operación del SGEn y verificación del desempeño energético de la organización, incluyendo el cumplimiento de los objetivos y metas energéticas. De la correcta definición y ejecución de la recopilación de datos energéticos, dependerá el resultado de la medición del desempeño energético que permitirá garantizar la mejora contínua del sistema de gestión de la energía.
+            p Para realizar el seguimiento, medición y análisis del desempeño energético y del SGEn, se requiere definir un plan de medición apropiado al tamaño, complejidad y equipos de medición presentes o que puede adquirir la organización. Generalmente las pequeñas empresas (con bajos consumos energéticos) o las empresas que se encuentran iniciando la implementación de su SGE, el registro de consumos totales puede realizarse a través de las facturas de servicios públicos, y de los registros manuales de las planillas de mantenimiento de equipos. 
+    
+    p(data-aos="fade-right") En las empresas de mayor tamaño o grandes consumidores de energía generalmente se cuenta con un portal web dispuesto por el comercializador de energía donde se puede acceder para obtener los registros de los consumos por periodos de tiempo horario, diario o mensual.
+
+    .row.justify-content-center.align-items-center.cajon.color--gris.py-2.mt-5(data-aos="fade-down")
+      .col-md-8.col-12
+        p Adicionalmente para la recopilación de los datos energéticos se puede recurrir a la información del software y redes de automatización y control de procesos, control de iluminación, control de acceso, software de monitoreo de variables energéticas, etc. Independientemente del nivel de consumo de la empresa, es necesario el compromiso de la organización para la instalación de sistemas de submedición en los principales usos significativos de la energía como medida para garantizar la mejora contínua del desempeño energético y del SGEn.
+      .col-md-4.col-12
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-26.svg', alt='')
+
+          
+    .row.justify-content-center.align-items-center.cajon.color--azul.py-2.mt-5(data-aos="fade-right")
+      .col-md-4.col-lg-3.col-12
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-27.svg', alt='')
+      .col-md-8.col-lg-9.col-12
+        p Generalmente dentro del plan de recopilación de datos de la energía se realiza inicialmente una descripción de las fuentes de información disponibles en la empresa como por ejemplo facturas de energía, sistema de monitoreo de datos energéticos, sistemas de control y automatización, etc. Posteriormente se determina mediante un listado cada una de los datos que se deben recopilar dentro del plan de recolección con la siguiente información para cada uno de ellos:
+        ul.lista-ul.mb-3
+          li(data-aos="fade-down")
+            i.fas.fa-angle-right
+            | Nombre y descripción del dato a recolectar.
+          li(data-aos="fade-down")
+            i.fas.fa-angle-right
+            | Fuente de información o lugar donde se recolecta la información.
+          li(data-aos="fade-down")
+            i.fas.fa-angle-right
+            | Frecuencia de recolección (diaria, semanal, mensual).
+          li(data-aos="fade-down")
+            i.fas.fa-angle-right
+            | Lugar donde se guardará la información registrada (base de datos, archivo en intranet, etc).
+          li(data-aos="fade-down")
+            i.fas.fa-angle-right
+            | Responsable de la recolección y registro.
+          li(data-aos="fade-down")
+            i.fas.fa-angle-right
+            | ¿Para qué se va a usar el dato recolectado?
+          li(data-aos="fade-down")
+            i.fas.fa-angle-right
+            | Una breve descripción de plan de contingencia en caso que no esté disponible el dato en la fuente original por casos de fallas o fuerza mayor.
+
+        p De acuerdo con la norma ISO 50001, los datos a recopilar y la información documentada a registrar es la siguiente:
+        ul.lista-ul.mb-3
+          li(data-aos="fade-down")
+            i.fas.fa-angle-right
+            | Las variables relevantes para cada uno de los usos significativos de la energía (USE).
+          li(data-aos="fade-down")
+            i.fas.fa-angle-right
+            | El consumo de energía para cada uno de los USE y el total de la organización.
+          li(data-aos="fade-down")
+            i.fas.fa-angle-right
+            | Los criterios operacionales relacionados con los USE.
+          li(data-aos="fade-down")
+            i.fas.fa-angle-right
+            | Los factores estáticos si aplican para la organización.
+          li(data-aos="fade-down")
+            i.fas.fa-angle-right
+            | El registro de los datos definidos en el plan de acción.
+
+    .row.justify-content-center.align-items-center.cajon.color--gris.py-2.mt-5(data-aos="fade-down")
+      .col-md-8.col-12
+        p Adicionalmente la organización debe revisar y actualizar periódicamente sus necesidades de registro de datos y medición (áreas y equipos que requieren ser medidos), y debe asegurar que el equipo o equipos utilizados para la medición proporcionen información precisa y exacta. Lo anterior se puede garantizar a través de un plan de calibración y verificación de los equipos de medida.
+        p A continuación se muestran algunos enlaces con diferentes sistemas de información en el mercado que facilitan la recolección de la información energética en una organización:
+      .col-md-4.col-12
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-28.svg', alt='')
+
+    .row.mt-5
+      .col-md-2(data-aos="fade-left")
+        a.boton.sin-fondo.me-3(href="https://www.softexpert.com/es/" target="_blank")
+          img(src='@/assets/curso/temas/tema1/tema1-29.svg', alt='')
+      .col-md-2(data-aos="fade-left")
+        a.boton.sin-fondo.me-3(href="https://www.dexma.com/es/" target="_blank")
+          img(src='@/assets/curso/temas/tema1/tema1-30.svg', alt='')
+      .col-md-2(data-aos="fade-left")
+        a.boton.sin-fondo.me-3(href="https://www.smarkia.com/" target="_blank")
+          img(src='@/assets/curso/temas/tema1/tema1-31.svg', alt='')
+      .col-md-2(data-aos="fade-left")
+        a.boton.sin-fondo.me-3(href="https://www.isotools.us/" target="_blank")
+          img(src='@/assets/curso/temas/tema1/tema1-32.svg', alt='')
+      .col-md-2(data-aos="fade-left")
+        a.boton.sin-fondo.me-3(href="https://isowin.org/" target="_blank")
+          img(src='@/assets/curso/temas/tema1/tema1-33.svg', alt='')
+      .col-md-2(data-aos="fade-left")
+        a.boton.sin-fondo.me-3(href="https://enerit.com/" target="_blank")
+          img(src='@/assets/curso/temas/tema1/tema1-34.svg', alt='')
+
 
 
 </template>
