@@ -176,7 +176,7 @@
                 .col.mb-3.mb-sm-0
                   p.text-small En el siguiente enlace se pueden observar otras consideraciones legales a tener en cuenta para el diseño de los proyectos: 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/1_MC_Control Operacional.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.mincit.gov.co/temas-interes/reglamentos-tecnicos" target="_blank")
                     span Ver
                     i.fas.fa-link
 

@@ -301,8 +301,8 @@
           img(src='@/assets/curso/temas/tema4/tema4-13.png', alt='')
 
     Separador
-    #t_4_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
-      h2 4.2 Revisión por la dirección
+    #t_4_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 4.3 Revisión por la dirección
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
       .bloque-texto-g__img(
