@@ -152,7 +152,105 @@
     p.mb-5(data-aos="fade-right") De acuerdo con Agencia de Sostenibilidad Energética (2018), las actividades más relevantes del proceso de revisión energética son las siguientes:
 
 
-    h1 ####PENDIENTE SLIDERS ######
+    
+    .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-down")
+      SlyderA(tipo="b")
+        .row.justify-content-center.align-items-center
+          .col-md-6.col-lg-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-35.png', alt='', @click="hacerVisible(0)")
+          .col-md-6.col-lg-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-36.png', alt='', @click="hacerVisible(1)")
+          .col-md-10.col-12.mt-3
+            p.mb-0.text-center.text-small Haz clic en cada imagen para ver la información
+
+        .row.justify-content-center.align-items-center
+          .col-md-7.col-12
+            p En caso de no existir alguna de estas informaciones, se deben hacer levantamientos de información con recorridos en las instalaciones de la organización.
+            p En la mayoría de situaciones, también se requiere realizar mediciones en las subestaciones principales o equipos con mayor consumo de energía, durante intervalos de tiempo definidos (días, semanas) para registrar los consumos energéticos e identificar el perfil de consumo.
+          .col-md-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-37.png', alt='')
+
+        .row.justify-content-center.align-items-center
+          .col-md-7.col-12
+            p Las instalaciones de las organizaciones e incluso nuestros hogares tienen un perfil de consumo que dependen del uso que se haga a la energía, por esta razón, de dicho perfil se puede obtener información muy valiosa acerca de las costumbres de los usuarios respecto al uso de la energía. Dichas mediciones se realizan con medidores portátiles los cuales tienen la ventaja de poder ser instalados sin interrumpir la operación de los procesos.
+          .col-md-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-38.png', alt='')
+
+        .row.justify-content-center.align-items-center
+          .col-md-7.col-12
+            h4 Organización y análisis de datos energéticos:
+            p Una vez sea recopilada la información energética, se debe depurar y organizar para su posterior análisis. Para el análisis de los datos se recurre al uso de herramientas de procesamiento de información como hojas de cálculo (la más usada es Excel) y en ocasiones herramientas estadísticas como por ejemplo R o R Studio. La fase de análisis de datos energéticos se requiere realizar durante todo el proceso de revisión energética, ya que en la mayoría de ocasiones se requiere validar situaciones y conclusiones derivadas de la organización y presentación de la información.
+          .col-md-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-39.png', alt='')
+
+        .row.justify-content-center.align-items-center
+          .col-md-7.col-12
+            h4 Elaboración de matriz de consumos energéticos:
+            p La matriz de consumos energéticos es una tabla con datos y gráficos que permite a la organización identificar de forma rápida los recursos energéticos que utiliza, y el consumo de energía total por cada energético. También resulta útil realizar una tabla de costos energéticos donde se visualice el peso porcentual de cada energético en los costos totales.
+          .col-md-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-40.png', alt='')
+              
+        .row.justify-content-center.align-items-center
+          .col-lg-10.col-12.mt-3
+            h4 Análisis de las tendencias en los consumos de energía:
+          .col-md-6.col-lg-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-41.png', alt='', @click="hacerVisible(2)")
+          .col-md-6.col-lg-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-42.png', alt='', @click="hacerVisible(3)")
+          .col-md-10.col-12.mt-3
+            p.mb-0.text-center.text-small Haz clic en cada imagen para ver la información
+
+        .row.justify-content-center.align-items-center
+          .col-md-7.col-12
+            h4 Estimación de los consumos energéticos en el futuro:
+            p En esta etapa se recurre a las herramientas del análisis gráfico y estadístico que permiten determinar si existe una relación entre algunas de las variables principales de la organización como por ejemplo los niveles de producción (toneladas de producto, hectolitros producidos, cantidad de agua fría, etc.) o los niveles de ocupación para ciertas empresas y organizaciones. La herramienta más utilizada para tal fin es el análisis de correlación que consiste en obtener una ecuación lineal que represente la relación entre una o más variables que pueden explicar la variación del consumo en función de dichas variables. Una vez obtenida esta ecuación, es posible estimar cuantitativamente los consumos futuros. Existen otras herramientas más avanzadas y que requieren un análisis más detallado.
+          .col-md-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-43.png', alt='')
+
+        .row.justify-content-center.align-items-center
+          .col-md-7.col-12
+            h4 Determinación de los Usos Significativos de la Energía (USE):
+            p Normalmente los USE se determinan como las instalaciones, equipos o sistemas que tienen la mayor porción del consumo de energía con respecto al total de la organización y también representan un alto costo económico en su operación. Es en los USE en donde existe un potencial considerable de mejora en el uso eficiente y racional de la energía.
+          .col-md-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-44.png', alt='')
+        
+        .row.justify-content-center.align-items-center
+          .col-lg-10.col-12.mt-3
+            h4 Análisis de las tendencias en los consumos de energía:
+          .col-md-6.col-lg-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-45.png', alt='', @click="hacerVisible(4)")
+          .col-md-6.col-lg-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-46.png', alt='', @click="hacerVisible(5)")
+          .col-md-10.col-12.mt-3
+            p.mb-0.text-center.text-small Haz clic en cada imagen para ver la información
+        
+        .row.justify-content-center.align-items-center
+          .col-12.mt-3
+            h4 Análisis de las tendencias en los consumos de energía:
+          .col-md-4.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-47.png', alt='', @click="hacerVisible(6)")
+          .col-md-4.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-48.png', alt='', @click="hacerVisible(7)")
+          .col-md-4.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-49.png', alt='', @click="hacerVisible(8)")
+          .col-md-10.col-12.mt-3
+            p.mb-0.text-center.text-small Haz clic en cada imagen para ver la información
+
 
 
     Separador
@@ -549,7 +647,12 @@
         a.boton.sin-fondo.me-3(href="https://enerit.com/" target="_blank")
           img(src='@/assets/curso/temas/tema1/tema1-34.svg', alt='')
 
-
+    ModalA(:abrir-modal.sync="modal1")
+      .row.align-items-center
+        .col-md-12.col-lg-12.col-12.mb-4.mb-md-0
+          h4.text-white {{ titulo_a_mostrar }}
+          p.text-white {{ texto_a_mostrar }}
+      
 
 </template>
 
@@ -559,6 +662,56 @@ export default {
   components: {},
   data: () => ({
     // variables de vue
+    modal1: false,
+    titulo_a_mostrar: '',
+    texto_a_mostrar: '',
+    textos: [
+      {
+        titulo: 'Recopilación de datos energéticos:',
+        texto:
+          'Durante esta etapa se recopila la información existente en la organización relacionada con los temas energéticos como por ejemplo:  facturas de consumo y contratos de compra de energéticos, inventario de equipos consumidores de energía (con datos de placa), datos históricos de mediciones si se tienen instalados medidores de variables físicas relacionadas con la energía (medidores de energía eléctrica, presión, flujo, temperatura, etc.).',
+      },
+      {
+        titulo: '',
+        texto:
+          'Informes de mediciones de calidad de energía para equipos e instalaciones eléctricas y térmicas, planos de distribución de equipos en planta, diagramas unifilares de las instalaciones eléctricas y térmicas, diagramas de flujo de producción, datos de producción anual-mensual-diaria, facturas de consumo de agua, organigrama de la empresa, políticas ambientales y energéticas de la empresa, horarios de operación y producción de la empresa, entre otras.',
+      },
+      {
+        titulo: '',
+        texto:
+          'Generalmente el análisis de las tendencias inicia con la representación gráfica en donde en uno de los ejes (normalmente el eje y) se encuentra el consumo de energía (de cada uno de los energéticos y de los equipos de mayor consumo) y en el otro eje se encuentra representado el tiempo.',
+      },
+      {
+        titulo: '',
+        texto:
+          'Este tipo de análisis permite observar el comportamiento del consumo de energía a través del tiempo en escalas de días, meses, y años. La importancia de este tipo de análisis radica en que se pueden identificar consumos no asociados a la producción como por ejemplo en horarios no laborales, y se pueden medir los valores máximos, mínimos y promedios de los consumos durante el periodo de tiempo que se requiera analizar.',
+      },
+      {
+        titulo: '',
+        texto:
+          'Posterior a la determinación de los USE, se procede a realizar el análisis de consumo y desempeño energético para cada uno de ellos. Para tal fin se recopila información detallada acerca del equipo o proceso a analizar como por ejemplo los procedimientos de operación, mantenimiento, personal asociado a la operación, indicadores existentes para la operación y mantenimiento, mediciones realizadas anteriormente y en muchas ocasiones se procede a instalar medidores portátiles de consumo energético.',
+      },
+      {
+        titulo: '',
+        texto:
+          'El producto principal de esta etapa es la cuantificación del desempeño actual del USE y las variables que afectan dicho desempeño como por ejemplo las condiciones ambientales, condiciones de trabajo (temperatura, presión, flujo, etc.), la ocupación, horas de operación, tipo de cargas y nivel de carga de funcionamiento, entre otras.',
+      },
+      {
+        titulo: '',
+        texto:
+          'Las oportunidades de mejora para el desempeño energético hacen referencia a las acciones que se pueden implementar con el objetivo de mejorar la eficiencia energética al interior de un proceso, equipo o área de la empresa, y que permite la mejora del desempeño energético del mismo y de la organización. Lo anterior conlleva además en ahorros económicos, disminución de emisiones de gases de efecto invernadero (GEI) y mejora en las condiciones de operación y ambientes de trabajo. Las oportunidades de mejora se deben exponer en una lista ordenada y priorizada dependiendo de las necesidades y políticas de la organización.',
+      },
+      {
+        titulo: '',
+        texto:
+          'Generalmente, la priorización y clasificación se puede realizar según los montos de inversión económica de cada acción, iniciando por las que no implican ninguna inversión (como por ejemplo cambio de conducta, prácticas de operación y mantenimiento), luego las que requieren niveles de inversión económica moderado capacitación, implementación de sistemas de monitoreo y automatización por ejemplo), y finalizando con las que requieren inversiones significativas para la organización (renovación de equipos, cambios de aislamiento en grandes longitudes de tuberías, cambio de fuentes de energía, entre otras).',
+      },
+      {
+        titulo: '',
+        texto:
+          'Si la empresa u organización lo desea, también se pueden priorizar las oportunidades de mejora dependiendo de la cantidad de energía reducida, iniciando por las acciones que más ahorro se obtiene y finalizando por las que menos ahorro se obtiene. La decisión final de la priorización de las oportunidades de mejora dependerá de la decisión de la empresa.',
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
@@ -567,6 +720,13 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    hacerVisible(item) {
+      this.titulo_a_mostrar = this.textos[item].titulo
+      this.texto_a_mostrar = this.textos[item].texto
+      this.modal1 = true
+    },
   },
 }
 </script>
