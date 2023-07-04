@@ -174,7 +174,7 @@
 
     .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-md-8.col-lg-9.col-12
-        p(data-aos="fade-right") #[strong Toma de conciencia]
+        h4(data-aos="fade-right") Toma de conciencia
         p(data-aos="fade-down") Todos los integrantes y las personas que se encuentran trabajando bajo el control de la organización deben conocer las bases, el funcionamiento e implicaciones del SGEn, por lo que las responsabilidades no corresponden únicamente a los roles definidos por el SGEn. Por lo tanto, la organización debe asegurar que todas las personas tomen conciencia de los siguientes aspectos del SGEn:
         ul.lista-ul.mb-3
           li(data-aos="fade-down")
@@ -383,12 +383,37 @@
 
     .row.justify-content-center.align-items-center.mt-5.mb-5 
       .col-12(data-aos="fade-right")
-        p.mb-0 La norma ISO 50001 establece la información documentada que se requiere mantener o conservar en relación al sistema de gestión de la energía. Le invitamos a visualizar el siguiente video con el fin de conocer más información. 
+        p.mb-0 La norma ISO 50001 establece la información documentada que se requiere mantener o conservar en relación al sistema de gestión de la energía. Le invitamos a visualizar la siguiente presentación con el fin de conocer más información.
 
-    figure.mt-5.mb-5(data-aos="fade-right")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
-    
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-right")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-14.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 De acuerdo con Red Colombiana de Conocimiento en Eficiencia Energética (2019), la información documentada representa la forma en que la organización garantiza que las prácticas y resultados asociados al SGEn se puedan consultar y replicar.  
+          br
+          br
+          | Adicionalmente, permite a la organización realizar la gestión de su conocimiento y lecciones aprendidas, garantizar que las actividades del SGEn se realicen de manera adecuada y estandarizadas, comparar resultados con periodos anteriores y demostrar mejora continua del SGEn y el desempeño energético de la organización. 
+          br
+          br
+          | En caso tal que la organización ya tenga implementados otros sistemas de gestión como por ejemplo el de aseguramiento de la calidad o el sistema de gestión ambiental entre otros, la información documentada del SGEn puede estar integrada con los requisitos de la información documentada de dichos sistemas.  
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-md-3.col-lg-2.mb-5.mb-md-0
+        figure 
+          img(src="@/assets/curso/temas/tema2/tema2-15.svg", alt="")
+      .col-md-9.col-lg-10.mb-5.mb-md-0
+        p La norma ISO 50001 establece la información documentada que se requiere mantener o conservar en relación al sistema de gestión de la energía. Así mismo la organización puede desarrollar información documentada adicional según estime necesario para demostrar el desempeño energético y brindar soporte y apoyo a la operación del SGEn. 
+
+    p.mb-5(data-aos="fade-right") Por lo general para el cumplimiento de este requisito, las organizaciones elaboran los siguientes tipos de documentos: 
+
+    .row.mb-5 
+      .col-12(data-aos="fade-down")
+        p #[strong Manual del SGEn:] de acuerdo con Agencia de Sostenibilidad Energética (2018), el manual es un documento básico del sistema de gestión, que proporciona una visión general de la forma en que la organización cumple con cada uno de los requisitos. De manera general este documento se estructura tomando como base el mismo orden de los requisitos descritos por la norma ISO 50001. 
+        p Cabe aclarar que el manual del sistema de gestión es opcional, sin embargo, es una herramienta que cualquier persona que trabaja para la organización puede consultar para conocer la operación del SGEn.
+      .col-12(data-aos="fade-down")
+        p #[strong Otras características del manual del SGEn son las siguientes:] se debe tratar que el manual sea un documento relativamente corto, ya que su intención principal es guiar a la persona que lo consulta pueda encontrar de forma rápida y organizada la información de la forma en que la organización cumple con cada uno de los requisitos del sistema de gestión de la energía. El detalle de la operación para cada uno de los temas y requisitos se puede consignar en otros documentos como procedimientos, guías, formatos o registros. 
+      .col-12(data-aos="fade-down")
+        p #[strong La organización puede determinar cómo se puede hacer la consulta del manual:] puede consignarse en un documento físico o puede ser un documento digital que se encuentra en una carpeta compartida para consulta, o también en un repositorio digital interactivo que contiene la información de todos los sistemas de gestión. 
 
     .row.justify-content-center.align-items-center.mb-5 
       .col-md-5.mb-5.mb-md-0(data-aos="fade-right")
@@ -434,27 +459,27 @@
     .row.mb-5
       .col-md-4.col-12.mb-5.mb-lg-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema2/tema2-16.svg' alt='AvatarTop')
           .tarjeta.color-acento-botones
             .p-4
               h4.text-center Identificación y descripción: 
-              p.text-center cada documento elaborado por la organización debe incluir como mínimo una codificación única para su identificación, los títulos y nombre del documento (por ejemplo, procedimiento, guía, formato, instructivo, etc.), fecha de elaboración, autor y versión del documento
+              p.text-center Cada documento elaborado por la organización debe incluir como mínimo una codificación única para su identificación, los títulos y nombre del documento (por ejemplo, procedimiento, guía, formato, instructivo, etc.), fecha de elaboración, autor y versión del documento
 
       .col-md-4.col-12.mb-5.mb-lg-0(data-aos="fade-down")
         .tarjeta-avatar
-          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema2/tema2-17.svg' alt='AvatarTop')
           .tarjeta.color-acento-botones
             .p-4
               h4.text-center El formato a utilizar: 
-              p.text-center si se utiliza a través de una plataforma electrónica, a través de papel, repositorio de la red interna de la organización.
+              p.text-center Si se utiliza a través de una plataforma electrónica, a través de papel, repositorio de la red interna de la organización.
 
       .col-md-4.col-12.mb-5.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar
-          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema2/tema2-18.svg' alt='AvatarTop')
           .tarjeta.color-acento-botones
             .p-4
               h4.text-center Revisión y aprobación: 
-              p.text-center cada documento debe estar aprobado por el personal autorizado y tener una fecha de vigencia.
+              p.text-center Cada documento debe estar aprobado por el personal autorizado y tener una fecha de vigencia.
 
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")

@@ -57,13 +57,13 @@
         div(style="background-color:#ECE3FF")
           p.px-2 El primer nivel en las metas indicativas de eficiencia energética se estableció en la resolución 180919 de 2010, mediante la adopción del Plan de Acción Indicativo PAI-PROURE 2010-2015 y el segundo nivel de las mismas metas se estableció en la resolución 41216 de 201, mediante la adopción del Plan de Acción Indicativo PAI-PROURE 2010-2015 el cual se encuentra vigente.
 
-    p(data-aos="fade-right") Las actuales metas de ahorro de energía por sector se muestran la siguiente figura:
+    p(data-aos="fade-right") Las actuales metas de ahorro de energía por sector se muestran la siguiente tabla:
       
     .row.justify-content-center.align-items-center.mb-5.mt-4
       .col-12.col-md-10.px-0(data-aos="fade-down")
         .tabla-a.color-acento-botones 
           table
-            caption Figura 10. Metas indicativas de ahorro de energía 2017 - 2022, Plan de acción indicativo PAI-PROURE 2017-2022 p. 45.
+            caption Plan de acción indicativo PAI-PROURE 2017-2022 p. 45.
             thead
               tr
                 th Sector
@@ -83,9 +83,13 @@
                 td 87.289
                 td 1,13%
               tr
-                td 
+                td Residencial
                 td 699.678
                 td 9.05%
+
+    Separador
+    #t_5_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 5.1 No conformidad y Acción correctiva
 
     p(data-aos="fade-right") Algunos ejemplos de no conformidades son:
 

@@ -18,7 +18,10 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/intro.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p La implementación de los sistemas de gestión eficiente de la energía pretende generar un cambio cultural en los procesos y procedimientos que a diario se realizan en cualquier tipo de organización, con el objetivo principal del uso racional y eficiente de la energía, y la disminución del impacto de cada uno en el medio ambiente. Para llegar a cumplir con este objetivo se deben seguir determinados pasos establecidos por la normatividad para los sistemas de gestión de la energía. En el presente componente formativo se analizarán las etapas de planificación, apoyo, operación, evaluación del desempeño y mejora contínua para los SGEn. Adicionalmente se presentan algunas definiciones y recomendaciones respecto a la eficiencia energética y el uso racional de la energía. 
+        p La implementación de los sistemas de gestión eficiente de la energía pretende generar un cambio cultural en los procesos y procedimientos que a diario se realizan en cualquier tipo de organización, con el objetivo principal del uso racional y eficiente de la energía, y la disminución del impacto de cada uno en el medio ambiente. Para llegar a cumplir con este objetivo se deben seguir determinados pasos establecidos por la normatividad para los sistemas de gestión de la energía. 
+          br
+          br
+          | En el presente componente formativo se analizarán las etapas de planificación, apoyo, operación, evaluación del desempeño y mejora contínua para los SGEn. Adicionalmente se presentan algunas definiciones y recomendaciones respecto a la eficiencia energética y el uso racional de la energía. 
 
     
 </template>

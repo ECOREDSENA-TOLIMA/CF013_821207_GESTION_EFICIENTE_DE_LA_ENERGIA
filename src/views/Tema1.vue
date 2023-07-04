@@ -128,7 +128,7 @@
       .col-12(data-aos="fade-down")
         figure
           img(src='@/assets/curso/temas/tema1/tema1-08.svg', alt='')  
-          figcaption Tabla de elaboración propia. Contenido tomado de Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019). p. 112
+          //figcaption Tabla de elaboración propia. Contenido tomado de Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019). p. 112
     
     .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-12.col-md-10.col-lg-9(data-aos="fade-right")
@@ -145,25 +145,67 @@
 
     p.mb-5(data-aos="fade-right") La revisión energética es el conjunto de actividades mediante las cuales es posible la identificación de los usos y consumos de energía, sus niveles de eficiencia asociados y en general muestra el panorama del desempeño energético actual de la organización. Conoce más información sobre la revisión energética en el siguiente video:
 
-    figure.mt-5.mb-5(data-aos="fade-right")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
-    
+    .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-down") 
+      PasosB.color-acento-contenido
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p La revisión energética es considerada como la base para el proceso de planificación de los SGEn, y se da como el resultado del análisis de los datos energéticos y productivos de la organización como por ejemplo las facturas de consumos energéticos, registro de mediciones energéticas, planos unifilares, planos de las instalaciones, diagramas productivos, registro de producción, datos de los equipos consumidores de energía, entre otros. 
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-50.png', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p En algunas organizaciones especialmente industriales, se acostumbra realizar auditorías energéticas (son diferentes a las auditorías internas de los sistemas de gestión integrado) con el fin de identificar potenciales medidas para el ahorro y uso eficiente de la energía. 
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-51.png', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p La metodología para este tipo de auditorías está determinada por la norma NTC:ISO 50002 Auditorías Energéticas, dentro de las cuales existen diferentes tipos dependiendo del nivel de complejidad y los requerimientos de la organización. Las auditorías energéticas que ha realizado la organización previamente al inicio de la implementación del SGEn, se pueden integrar como parte de la revisión energética.  
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-52.png', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p La revisión energética debe estar actualizada a intervalos planificados, y adicionalmente se debe realizar una vez existan cambios significativos en el uso y consumo de la energía como por ejemplo el reemplazo de algún energético o el cambio de tecnología de alguna línea de producción completa.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-53.png', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p De acuerdo con la Norma ISO 50001, la información que se debe obtener del proceso de revisión energética es la siguiente: 
+            p - Análisis del uso y consumo de la energía con base al análisis de mediciones y otras fuentes de información, para obtener la identificación de los tipos de energía usados actualmente, y la evaluación del uso y consumo de la energía en el pasado y en la actualidad. 
+            p - Estimación de los consumos energéticos en el futuro. 
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-54.png', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p - Identificación y cuantificación de Usos Significativos de la Energía (USE), definidos como aquellos que tienen un consumo sustancial de energía o que ofrecen un alto potencial de mejora en el desempeño, puntos en los cuales se debe enfocar la gestión. 
+            p - Para cada USE se deben determinar el desempeño energético o nivel de eficiencia actual, las variables relevantes, e identificar las personas que influyen directamente en su operación. 
+            p - Identificación y priorización de oportunidades para la mejora del desempeño energético de la organización. 
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-55.png', alt='')
+
+
     p.mb-5(data-aos="fade-right") De acuerdo con Agencia de Sostenibilidad Energética (2018), las actividades más relevantes del proceso de revisión energética son las siguientes:
 
-
-    
-    .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-down")
+     .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-down")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
-          .col-md-6.col-lg-5.col-12
+          .col-md-6.col-lg-6.col-12
+            h4 Recopilación de datos energéticos:
+            p Durante esta etapa se recopila la información existente en la organización relacionada con los temas energéticos como por ejemplo:  facturas de consumo y contratos de compra de energéticos, inventario de equipos consumidores de energía (con datos de placa), datos históricos de mediciones si se tienen instalados medidores de variables físicas relacionadas con la energía (medidores de energía eléctrica, presión, flujo, temperatura, etc.).
+          .col-md-6.col-lg-6.col-12
             figure
-              img(src='@/assets/curso/temas/tema1/tema1-35.png', alt='', @click="hacerVisible(0)")
-          .col-md-6.col-lg-5.col-12
+              img(src='@/assets/curso/temas/tema1/tema1-35.png', alt='')
+        .row.justify-content-center.align-items-center
+          .col-md-6.col-lg-6.col-12
+            p Informes de mediciones de calidad de energía para equipos e instalaciones eléctricas y térmicas, planos de distribución de equipos en planta, diagramas unifilares de las instalaciones eléctricas y térmicas, diagramas de flujo de producción, datos de producción anual-mensual-diaria, facturas de consumo de agua, organigrama de la empresa, políticas ambientales y energéticas de la empresa, horarios de operación y producción de la empresa, entre otras.
+          .col-md-6.col-lg-6.col-12
             figure
               img(src='@/assets/curso/temas/tema1/tema1-36.png', alt='', @click="hacerVisible(1)")
-          .col-md-10.col-12.mt-3
-            p.mb-0.text-center.text-small Haz clic en cada imagen para ver la información
 
         .row.justify-content-center.align-items-center
           .col-md-7.col-12
@@ -197,21 +239,19 @@
               img(src='@/assets/curso/temas/tema1/tema1-40.png', alt='')
               
         .row.justify-content-center.align-items-center
-          .col-lg-10.col-12.mt-3
+          .col-md-6.col-lg-6.col-12.mt-3
             h4 Análisis de las tendencias en los consumos de energía:
-          .col-md-6.col-lg-5.col-12
+            p Generalmente el análisis de las tendencias inicia con la representación gráfica en donde en uno de los ejes (normalmente el eje y) se encuentra el consumo de energía (de cada uno de los energéticos y de los equipos de mayor consumo) y en el otro eje se encuentra representado el tiempo.  
+            p Este tipo de análisis permite observar el comportamiento del consumo de energía a través del tiempo en escalas de días, meses, y años. La importancia de este tipo de análisis radica en que se pueden identificar consumos no asociados a la producción como por ejemplo en horarios no laborales, y se pueden medir los valores máximos, mínimos y promedios de los consumos durante el periodo de tiempo que se requiera analizar.
+          .col-md-6.col-lg-6.col-12
             figure
-              img(src='@/assets/curso/temas/tema1/tema1-41.png', alt='', @click="hacerVisible(2)")
-          .col-md-6.col-lg-5.col-12
-            figure
-              img(src='@/assets/curso/temas/tema1/tema1-42.png', alt='', @click="hacerVisible(3)")
-          .col-md-10.col-12.mt-3
-            p.mb-0.text-center.text-small Haz clic en cada imagen para ver la información
+              img(src='@/assets/curso/temas/tema1/tema1-41.png', alt='')
 
         .row.justify-content-center.align-items-center
           .col-md-7.col-12
             h4 Estimación de los consumos energéticos en el futuro:
-            p En esta etapa se recurre a las herramientas del análisis gráfico y estadístico que permiten determinar si existe una relación entre algunas de las variables principales de la organización como por ejemplo los niveles de producción (toneladas de producto, hectolitros producidos, cantidad de agua fría, etc.) o los niveles de ocupación para ciertas empresas y organizaciones. La herramienta más utilizada para tal fin es el análisis de correlación que consiste en obtener una ecuación lineal que represente la relación entre una o más variables que pueden explicar la variación del consumo en función de dichas variables. Una vez obtenida esta ecuación, es posible estimar cuantitativamente los consumos futuros. Existen otras herramientas más avanzadas y que requieren un análisis más detallado.
+            p En esta etapa se recurre a las herramientas del análisis gráfico y estadístico que permiten determinar si existe una relación entre algunas de las variables principales de la organización como por ejemplo los niveles de producción (toneladas de producto, hectolitros producidos, cantidad de agua fría, etc.) o los niveles de ocupación para ciertas empresas y organizaciones. 
+            p La herramienta más utilizada para tal fin es el análisis de correlación que consiste en obtener una ecuación lineal que represente la relación entre una o más variables que pueden explicar la variación del consumo en función de dichas variables. Una vez obtenida esta ecuación, es posible estimar cuantitativamente los consumos futuros. Existen otras herramientas más avanzadas y que requieren un análisis más detallado.
           .col-md-5.col-12
             figure
               img(src='@/assets/curso/temas/tema1/tema1-43.png', alt='')
@@ -225,31 +265,34 @@
               img(src='@/assets/curso/temas/tema1/tema1-44.png', alt='')
         
         .row.justify-content-center.align-items-center
-          .col-lg-10.col-12.mt-3
-            h4 Análisis de las tendencias en los consumos de energía:
+          .col-md-6.col-lg-7.col-12
+            h4 Desempeño de los Usos Significativos de la Energía (USE):
+            p Posterior a la determinación de los USE, se procede a realizar el análisis de consumo y desempeño energético para cada uno de ellos. Para tal fin se recopila información detallada acerca del equipo o proceso a analizar como por ejemplo los procedimientos de operación, mantenimiento, personal asociado a la operación, indicadores existentes para la operación y mantenimiento, mediciones realizadas anteriormente y en muchas ocasiones se procede a instalar medidores portátiles de consumo energético.
+            p El producto principal de esta etapa es la cuantificación del desempeño actual del USE y las variables que afectan dicho desempeño como por ejemplo las condiciones ambientales, condiciones de trabajo (temperatura, presión, flujo, etc.), la ocupación, horas de operación, tipo de cargas y nivel de carga de funcionamiento, entre otras.
           .col-md-6.col-lg-5.col-12
             figure
-              img(src='@/assets/curso/temas/tema1/tema1-45.png', alt='', @click="hacerVisible(4)")
-          .col-md-6.col-lg-5.col-12
-            figure
-              img(src='@/assets/curso/temas/tema1/tema1-46.png', alt='', @click="hacerVisible(5)")
-          .col-md-10.col-12.mt-3
-            p.mb-0.text-center.text-small Haz clic en cada imagen para ver la información
-        
-        .row.justify-content-center.align-items-center
-          .col-12.mt-3
-            h4 Análisis de las tendencias en los consumos de energía:
-          .col-md-4.col-12
-            figure
-              img(src='@/assets/curso/temas/tema1/tema1-47.png', alt='', @click="hacerVisible(6)")
-          .col-md-4.col-12
-            figure
-              img(src='@/assets/curso/temas/tema1/tema1-48.png', alt='', @click="hacerVisible(7)")
-          .col-md-4.col-12
-            figure
-              img(src='@/assets/curso/temas/tema1/tema1-49.png', alt='', @click="hacerVisible(8)")
-          .col-md-10.col-12.mt-3
-            p.mb-0.text-center.text-small Haz clic en cada imagen para ver la información
+              img(src='@/assets/curso/temas/tema1/tema1-46.png', alt='')
+
+    p.mb-5(data-aos="fade-right") Oportunidades de mejora para el desempeño energético
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+      .row.justify-content-center.align-items-center(titulo="Objetivo")
+        .col-md-6.col-lg-6.col-12
+          p Las oportunidades de mejora para el desempeño energético hacen referencia a las acciones que se pueden implementar con el objetivo de mejorar la eficiencia energética al interior de un proceso, equipo o área de la empresa, y que permite la mejora del desempeño energético del mismo y de la organización. Lo anterior conlleva además en ahorros económicos, disminución de emisiones de gases de efecto invernadero (GEI) y mejora en las condiciones de operación y ambientes de trabajo. Las oportunidades de mejora se deben exponer en una lista ordenada y priorizada dependiendo de las necesidades y políticas de la organización.
+        .col-md-6.col-lg-6.col-12
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-47.png', alt='')
+      .row.justify-content-center.align-items-center(titulo="Clasificación")
+        .col-md-6.col-lg-6.col-12
+          p Generalmente, la priorización y clasificación se puede realizar según los montos de inversión económica de cada acción, iniciando por las que no implican ninguna inversión (como por ejemplo cambio de conducta, prácticas de operación y mantenimiento), luego las que requieren niveles de inversión económica moderado capacitación, implementación de sistemas de monitoreo y automatización por ejemplo), y finalizando con las que requieren inversiones significativas para la organización (renovación de equipos, cambios de aislamiento en grandes longitudes de tuberías, cambio de fuentes de energía, entre otras).
+        .col-md-6.col-lg-6.col-12
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-48.png', alt='')
+      .row.justify-content-center.align-items-center(titulo="Priorización")
+        .col-md-6.col-lg-6.col-12
+          p Si la empresa u organización lo desea, también se pueden priorizar las oportunidades de mejora dependiendo de la cantidad de energía reducida, iniciando por las acciones que más ahorro se obtiene y finalizando por las que menos ahorro se obtiene. La decisión final de la priorización de las oportunidades de mejora dependerá de la decisión de la empresa.
+        .col-md-6.col-lg-6.col-12
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-49.png', alt='')
 
 
 
@@ -355,7 +398,7 @@
             img(src='@/assets/curso/temas/tema1/tema1-16.svg' alt='AvatarTop')
           .tarjeta.tarjeta--custom
             .p-4
-              h4 Líneas de Base Energética (LBEn).
+              h4 Líneas de Base Energética (LBEn)
               p Las líneas de base energética (LBEn) se definen como la referencia cuantitativa con la cual se comparan los valores de cada uno de los IDEn con el fin de evaluar el desempeño energético de la organización. De manera más sencilla, la LBEn puede definirse como el comportamiento de los IDEs durante un periodo determinado de referencia. Por cada IDEn definido se debe establecer la LBEn a utilizar para la evaluación del desempeño energético. 
       .col-md-11.col-12(data-aos="fade-down")
         .tarjeta-avatar-b.mb-5
@@ -436,7 +479,7 @@
       .col-12.col-md-10.px-0(data-aos="fade-down")
         .tabla-a.color-acento-botones 
           table
-            caption Tabla de elaboración propia. Contenido tomado de Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019). Tabla No. 11. p. 67.
+            //caption Tabla de elaboración propia. Contenido tomado de Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019). Tabla No. 11. p. 67.
             thead
               tr
                 th Característica de la Meta energética
