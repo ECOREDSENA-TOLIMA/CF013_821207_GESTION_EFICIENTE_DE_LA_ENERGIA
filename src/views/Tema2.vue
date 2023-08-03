@@ -19,7 +19,7 @@
         LineaTiempoD.color-secundario(data-aos="fade-down")
           div.text-small(numero="1" titulo="Elementos de Apoyo para los SGEn") 
             p Los elementos de apoyo o soporte del sistema de gestión de la energía, corresponde a las actividades y procedimientos que permiten garantizar que los recursos disponibles dispuestos por la organización sean gestionados de manera efectiva para cumplir con la política energética y con lo especificado en la planificación del SGEn.
-            p Las actividades y procedimientos que pertenecen a los elementos de apoyo para el SGEn son las siguientes:
+            //- p Las actividades y procedimientos que pertenecen a los elementos de apoyo para el SGEn son las siguientes:
 
           div.text-small(numero="2" titulo="Recursos para el sistema de gestión de energía") 
             p De acuerdo con la norma ISO 50001, la organización debe determinar y proveer de todos los recursos necesarios para el establecimiento, implementación, mantenimiento y mejora continua, tanto del desempeño energético como del propio SGEn.
@@ -64,6 +64,8 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-10.px-0(data-aos="fade-down")
+        .titulo-sexto.color-acento-contenido.mt-3(data-aos="fade-left")
+          p.titulo.pb-0.mb-0 <b>Tabla 3.</b> <i>Ejemplo de perfil para el rol del líder del equipo de gestión de la energía en una organización.</i>
         .tabla-a.color-acento-botones 
           .tabla-b__header
             h4.mb-0 Perfil de cargo
@@ -127,6 +129,8 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-10.px-0(data-aos="fade-down")
+        .titulo-sexto.color-acento-contenido.mt-3(data-aos="fade-left")
+          p.titulo.pb-0.mb-0 <b>Tabla 4.</b> <i>Ejemplo de registro de necesidades de formación y capacitación.</i>
         .tabla-a.color-acento-botones 
           table
             thead
@@ -162,7 +166,7 @@
               img.mb-0.position-relative(src="@/assets/curso/iconos/ico-01.svg")
             div.px-3.pe-5
               h4.mb-0 Planeación y ejecución de planes de formación y capacitación
-        p(data-aos="fade-down") una vez identificadas las necesidades de formación y capacitación, se procede a realizar un plan para que las personas que trabajan para la organización puedan adquirir los conocimientos necesarios para cumplir con sus responsabilidades frente al SGEn. Todas los planes y actividades ejecutadas deben quedar registradas y documentadas.
+        p(data-aos="fade-down") una vez identificadas las necesidades de formación y capacitación, se procede a realizar un plan para que las personas que trabajan para la organización puedan adquirir los conocimientos necesarios para cumplir con sus responsabilidades frente al SGEn. Todos los planes y actividades ejecutadas deben quedar registradas y documentadas.
         .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
           div.mt-2.col-12.d-flex.align-items-center.mb-4.mt-3.position-relative(style="z-index:1000 !important" data-aos="fade-right")    
             div.p-0.position-relative   
@@ -335,6 +339,8 @@
 
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-12.col-md-12.px-0(data-aos="fade-down")
+        .titulo-sexto.color-acento-contenido.mt-3(data-aos="fade-left")
+          p.titulo.pb-0.mb-0 <b>Tabla 5.</b> <i>Ejemplo matriz de comunicaciones.</i>
         .tabla-a.color-acento-botones 
           table
             thead
@@ -383,7 +389,7 @@
 
     .row.justify-content-center.align-items-center.mt-5.mb-5 
       .col-12(data-aos="fade-right")
-        p.mb-0 La norma ISO 50001 establece la información documentada que se requiere mantener o conservar en relación al sistema de gestión de la energía. Le invitamos a visualizar la siguiente presentación con el fin de conocer más información.
+        p.mb-0 La norma ISO 50001 establece la información documentada que se requiere mantener o conservar en relación al sistema de gestión de la energía. Le invitamos a visualizar el siguiente contenido con el fin de conocer más información.
 
     .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-right")
       .bloque-texto-g__img(
@@ -396,13 +402,13 @@
           | Adicionalmente, permite a la organización realizar la gestión de su conocimiento y lecciones aprendidas, garantizar que las actividades del SGEn se realicen de manera adecuada y estandarizadas, comparar resultados con periodos anteriores y demostrar mejora continua del SGEn y el desempeño energético de la organización. 
           br
           br
-          | En caso tal que la organización ya tenga implementados otros sistemas de gestión como por ejemplo el de aseguramiento de la calidad o el sistema de gestión ambiental entre otros, la información documentada del SGEn puede estar integrada con los requisitos de la información documentada de dichos sistemas.  
+          | En caso tal que la organización ya tenga implementados otros sistemas de gestión como por ejemplo el de aseguramiento de la calidad o el sistema de gestión ambiental, entre otros, la información documentada del SGEn puede estar integrada con los requisitos de la información documentada de dichos sistemas.  
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-md-3.col-lg-2.mb-5.mb-md-0
         figure 
           img(src="@/assets/curso/temas/tema2/tema2-15.svg", alt="")
       .col-md-9.col-lg-10.mb-5.mb-md-0
-        p La norma ISO 50001 establece la información documentada que se requiere mantener o conservar en relación al sistema de gestión de la energía. Así mismo la organización puede desarrollar información documentada adicional según estime necesario para demostrar el desempeño energético y brindar soporte y apoyo a la operación del SGEn. 
+        p Así mismo la organización puede desarrollar información documentada adicional según estime necesario para demostrar el desempeño energético y brindar soporte y apoyo a la operación del SGEn. 
 
     p.mb-5(data-aos="fade-right") Por lo general para el cumplimiento de este requisito, las organizaciones elaboran los siguientes tipos de documentos: 
 
@@ -463,7 +469,7 @@
           .tarjeta.color-acento-botones
             .p-4
               h4.text-center Identificación y descripción: 
-              p.text-center Cada documento elaborado por la organización debe incluir como mínimo una codificación única para su identificación, los títulos y nombre del documento (por ejemplo, procedimiento, guía, formato, instructivo, etc.), fecha de elaboración, autor y versión del documento
+              p.text-center Cada documento elaborado por la organización debe incluir como mínimo una codificación única para su identificación, los títulos y nombre del documento (por ejemplo, procedimiento, guía, formato, instructivo, etc.), fecha de elaboración, autor y versión del documento.
 
       .col-md-4.col-12.mb-5.mb-lg-0(data-aos="fade-down")
         .tarjeta-avatar

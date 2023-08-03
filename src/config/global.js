@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Planificación y mejora contínua del Sistema de Gestión de la Energía',
+      'Planificación y mejora continua del Sistema de Gestión de la Energía',
     descripcionCurso:
-      'Como parte del ciclo PHVA, se deben considerar los procesos de planificación, evaluación y mejora contínua del sistema de gestión de la energía. En este componente se describe cada uno de los procesos y se muestran algunos ejemplos para su implementación.',
+      'Como parte del ciclo PHVA, se deben considerar los procesos de planificación, evaluación y mejora continua del sistema de gestión de la energía. En este componente se describe cada uno de los procesos y se muestran algunos ejemplos para su implementación.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -204,8 +204,7 @@ export default {
       tema: 'Control operacional y mantenimiento.',
       referencia:
         'Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE. (2019). Implementación de un Sistema de Gestión de la Energía - Guía con base en la norma ISO 50001:2018. Segunda edición. p. 83-92. Recuperado el 26 de agosto de 2021.',
-      tipo:
-        'Capítulo de publicación. <p>Archivo: 1_MC_Control Operacional.pdf</p>',
+      tipo: 'Capítulo de libro.',
       link:
         'https://www1.upme.gov.co/DemandaEnergetica/EEIColombia/Guia_estructura_ISO50001.pdf',
     },
@@ -213,30 +212,22 @@ export default {
       tema: 'Actividades de diseño en los SGEn.',
       referencia:
         'Ministerio de Comercio, Industria y Turismo. (2021). Reglamentos Técnicos. Recuperado el 26 de septiembre de 2021.',
-      tipo: 'Página Web. <p>Reglamentos Técnicos por dependencia.</p>',
+      tipo: 'Otro.',
       link: 'https://www.mincit.gov.co/temas-interes/reglamentos-tecnicos',
     },
-    {
-      tema: 'No conformidad y Acción Correctiva',
-      referencia:
-        'Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE. (2019). Implementación de un Sistema de Gestión de la Energía - Guía con base en la norma ISO 50001:2018. Segunda edición. p. 109-110. Recuperado el 26 de agosto de 2021.',
-      tipo:
-        'Capítulo de publicación. <p>Archivo: 2_MC_No Conformidades.pdf</p>',
-      link:
-        'https://www1.upme.gov.co/DemandaEnergetica/EEIColombia/Guia_estructura_ISO50001.pdf',
-    },
+    // {
+    //   tema: 'No conformidad y Acción Correctiva',
+    //   referencia:
+    //     'Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE. (2019). Implementación de un Sistema de Gestión de la Energía - Guía con base en la norma ISO 50001:2018. Segunda edición. p. 109-110. Recuperado el 26 de agosto de 2021.',
+    //   tipo: 'Capítulo de libro.',
+    //   link:
+    //     'https://www1.upme.gov.co/DemandaEnergetica/EEIColombia/Guia_estructura_ISO50001.pdf',
+    // },
     {
       tema: 'Eficiencia energética y uso racional de la energía',
       referencia:
         'Unidad de Planeación Minero Energética - UPME. (2021). Proyectos de eficiencia energética.  Recuperado el 26 de septiembre de 2021.',
-      tipo: `Documentos Material complementario:
-        <p>3_MC_Acerias.pdf</p>
-        <p>4_MC_Almasa.pdf</p>
-        <p>5_MC_Ceramica_Italia.pdf</p>
-        <p><p>6_MC_Colombina.pdf</p>
-        7_MC_Fosfatos.pdf</p>
-        <p> 8_MC_Genovas.pdf</p>
-      `,
+      tipo: `Capítulo de libro.`,
       link:
         'https://www1.upme.gov.co/DemandayEficiencia/Paginas/Proyectos-de-eficiencia-energetica.aspx',
     },
@@ -244,9 +235,7 @@ export default {
       tema: 'Eficiencia energética y uso racional de la energía.',
       referencia:
         'Unidad de Planeación Minero Energética-UPME. (2020). Guía de Planes de Gestión Eficiente de la Energía en Entidades Públicas.  p. 33-39. Recuperado el 26 de septiembre de 2021.',
-      tipo: `Documento Material complementario:
-        <p>9_MC_Buenas_Practicas.pdf</p>
-      `,
+      tipo: 'Otro.',
       link:
         'https://www1.upme.gov.co/DemandayEficiencia/Documents/Guia_liviana_PGEE.pdf',
     },

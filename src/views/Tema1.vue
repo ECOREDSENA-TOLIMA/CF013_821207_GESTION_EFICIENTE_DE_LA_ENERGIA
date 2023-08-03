@@ -26,7 +26,7 @@
               
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p De acuerdo con Agencia de Sostenibilidad Energética (2018), el resultado del proceso de planificación debe responder a las siguientes preguntas (entre otras):
+            p #[b De acuerdo con Agencia de Sostenibilidad Energética (2018), el resultado del proceso de planificación debe responder a las siguientes preguntas (entre otras):]
             ul.lista-ul.mb-3
               li 
                 i.fas.fa-angle-right
@@ -43,7 +43,7 @@
               
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Relacionadas con el desempeño energético:
+            p #[b Relacionadas con el desempeño energético:]
             ul.lista-ul.mb-3
               li 
                 i.fas.fa-angle-right
@@ -60,7 +60,7 @@
               
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Relacionadas con el  registro y metas:
+            p #[b Relacionadas con el registro y metas:]
             ul.lista-ul.mb-3
               li 
                 i.fas.fa-angle-right
@@ -77,7 +77,7 @@
               
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Relacionadas con las acciones a realizar:
+            p #[b Relacionadas con las acciones a realizar:]
             ul.lista-ul.mb-3
               li 
                 i.fas.fa-angle-right
@@ -119,16 +119,19 @@
         .tarjeta-avatar.col-12
           img(style="width: 80px;" src="@/assets/curso/temas/tema1/numero-3.svg")   
           .tarjeta.col-12.py-4.mb-4(style="background:#E4DAF7")
-            p.mb-0.text-center.mt-1 Alcanzar la mejora contínua del SGEn y del desempeño energético. 
+            p.mb-0.text-center.mt-1 Alcanzar la mejora continua del SGEn y del desempeño energético. 
 
     .row.justify-content-center.align-items-center
       .col-12(data-aos="fade-right")
         .cajon.color-primario.p-4.mb-4
           p Existen varias metodologías para la identificación y el análisis de riesgos, siendo la más utilizada el análisis DOFA por medio del cual se construye una matriz que permite estudiar las Debilidades, Oportunidades, Fortalezas y Amenazas (DOFA).
       .col-12(data-aos="fade-down")
+        .titulo-sexto.color-acento-botones.mb-0
+          p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Matriz DOFA de ejemplo para un SGEn.</i>
         figure
-          img(src='@/assets/curso/temas/tema1/tema1-08.svg', alt='')  
-          //figcaption Tabla de elaboración propia. Contenido tomado de Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019). p. 112
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/tema1-08.svg', alt='Matriz DOFA: Debilidades: Nivel bajo de conciencia energética en los empleados, costo elevado del mantenimiento de equipos, alto consumo de electricidad en los procesos, aumento sostenido del consumo de electricidad, requerimientos de alta inversión en equipos eficientes. Amenazas: Variabilidad en el mercado, Inestabilidad en la producción, Mala programación de la producción, Toma de decisiones repentinas asociadas a la producción, Incumplimiento de estándares de procesos. Fortalezas: Estructura robusta y fuerte de la organización, Altos niveles de producción, Procesos documentados y definidos, Directores con competencias y habilidades hacia la gestión de la energía. Oportunidades: Producto muy asentado en el mercado, Mejora de costes con tecnología más eficiente, Apuesta del gobierno hacia la eficiencia energética, Amplio mercado en productos de alta eficiencia, Grandes proyectos de mejora.')  
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema1/tema1-08-b.svg', alt='Matriz DOFA: Debilidades: Nivel bajo de conciencia energética en los empleados, costo elevado del mantenimiento de equipos, alto consumo de electricidad en los procesos, aumento sostenido del consumo de electricidad, requerimientos de alta inversión en equipos eficientes. Amenazas: Variabilidad en el mercado, Inestabilidad en la producción, Mala programación de la producción, Toma de decisiones repentinas asociadas a la producción, Incumplimiento de estándares de procesos. Fortalezas: Estructura robusta y fuerte de la organización, Altos niveles de producción, Procesos documentados y definidos, Directores con competencias y habilidades hacia la gestión de la energía. Oportunidades: Producto muy asentado en el mercado, Mejora de costes con tecnología más eficiente, Apuesta del gobierno hacia la eficiencia energética, Amplio mercado en productos de alta eficiencia, Grandes proyectos de mejora.')  
+          figcaption Tabla de elaboración propia. Contenido tomado de Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019). p. 112.
     
     .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-12.col-md-10.col-lg-9(data-aos="fade-right")
@@ -143,7 +146,7 @@
     #t_1_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 1.2 Revisión Energética
 
-    p.mb-5(data-aos="fade-right") La revisión energética es el conjunto de actividades mediante las cuales es posible la identificación de los usos y consumos de energía, sus niveles de eficiencia asociados y en general muestra el panorama del desempeño energético actual de la organización. Conoce más información sobre la revisión energética en el siguiente video:
+    p.mb-5(data-aos="fade-right") La revisión energética es el conjunto de actividades mediante las cuales es posible la identificación de los usos y consumos de energía, sus niveles de eficiencia asociados y en general muestra el panorama del desempeño energético actual de la organización. Conoce más información sobre la revisión energética en la siguiente presentación:
 
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-down") 
       PasosB.color-acento-contenido
@@ -205,7 +208,7 @@
             p Informes de mediciones de calidad de energía para equipos e instalaciones eléctricas y térmicas, planos de distribución de equipos en planta, diagramas unifilares de las instalaciones eléctricas y térmicas, diagramas de flujo de producción, datos de producción anual-mensual-diaria, facturas de consumo de agua, organigrama de la empresa, políticas ambientales y energéticas de la empresa, horarios de operación y producción de la empresa, entre otras.
           .col-md-6.col-lg-6.col-12
             figure
-              img(src='@/assets/curso/temas/tema1/tema1-36.png', alt='', @click="hacerVisible(1)")
+              img(src='@/assets/curso/temas/tema1/tema1-36.png', alt='')
 
         .row.justify-content-center.align-items-center
           .col-md-7.col-12
@@ -273,7 +276,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/tema1-46.png', alt='')
 
-    p.mb-5(data-aos="fade-right") Oportunidades de mejora para el desempeño energético
+    p.mb-5(data-aos="fade-right") #[b Oportunidades de mejora para el desempeño energético]
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
       .row.justify-content-center.align-items-center(titulo="Objetivo")
         .col-md-6.col-lg-6.col-12
@@ -283,7 +286,7 @@
             img(src='@/assets/curso/temas/tema1/tema1-47.png', alt='')
       .row.justify-content-center.align-items-center(titulo="Clasificación")
         .col-md-6.col-lg-6.col-12
-          p Generalmente, la priorización y clasificación se puede realizar según los montos de inversión económica de cada acción, iniciando por las que no implican ninguna inversión (como por ejemplo cambio de conducta, prácticas de operación y mantenimiento), luego las que requieren niveles de inversión económica moderado capacitación, implementación de sistemas de monitoreo y automatización por ejemplo), y finalizando con las que requieren inversiones significativas para la organización (renovación de equipos, cambios de aislamiento en grandes longitudes de tuberías, cambio de fuentes de energía, entre otras).
+          p Generalmente, la priorización y clasificación se puede realizar según los montos de inversión económica de cada acción, iniciando por las que no implican ninguna inversión (como por ejemplo cambio de conducta, prácticas de operación y mantenimiento), luego las que requieren niveles de inversión económica moderado capacitación, implementación de sistemas de monitoreo y automatización por ejemplo, y finalizando con las que requieren inversiones significativas para la organización (renovación de equipos, cambios de aislamiento en grandes longitudes de tuberías, cambio de fuentes de energía, entre otras).
         .col-md-6.col-lg-6.col-12
           figure
             img(src='@/assets/curso/temas/tema1/tema1-48.png', alt='')
@@ -300,7 +303,7 @@
     #t_1_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 1.3 Indicadores de desempeño energético (IDEn)
 
-    p.mb-5(data-aos="fade-right") A continuación, se presenta una infografía con los diferentes indicadores del desempeño energético, le invitamos a explorar el recurso: 
+    p.mb-5(data-aos="fade-right") A continuación, se presentan los diferentes indicadores del desempeño energético, le invitamos a explorar el recurso:  
 
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-down")
       SlyderA(tipo="b")
@@ -357,7 +360,7 @@
         .row.justify-content-center.align-items-center
           .col-md-7.mb-4.mb-md-0
             p Adicionalmente es importante tener en cuenta que pueden existir IDE de nivel gerencial y otros de nivel operativo. Lo anterior debido a que para cada nivel de la organización se manejan diferentes intereses, sin embargo todos los IDEn hacen parte del Sistema de Gestión de la Energía. 
-            p No se recomienda el establecimiento de IDE basados en los costos de energía, debido a que los valores unitarios de los energéticos como el kWh, m3 de gas, ton de carbón, etc, dependen de variaciones del mercado que no se pueden controlar.
+            p No se recomienda el establecimiento de IDE basados en los costos de energía, debido a que los valores unitarios de los energéticos como el kWh, m3 de gas, ton de carbón, etc., dependen de variaciones del mercado que no se pueden controlar.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/tema1-14.png', alt='')
@@ -451,7 +454,7 @@
         div.px-3.pe-5
           h4.mb-0 Objetivos energéticos
       .col-12(data-aos="fade-down")
-        p Los objetivos energéticos deben reflejar los resultados que la organización se propone alcanzar mediante su política energética, por lo tanto, deben ser coherentes y consistentes con dicha política y con los recursos disponibles por la organización. Estos objetivos deben plantear las visiones de corto y mediano plazo, y cada uno de ellos debe tener asociadas varias metas energéticas. De acuerdo con Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019), los objetivos pueden tener relación con temas de gestión (objetivos en capacitación y formación, responsabilidad social empresarial, objetivos asociados a los planes de acción etc.), requisitos de las partes interesadas (por ejemplo, cumplimiento de certificación) o con aspectos energéticos (reducción de consumos energéticos, austeridad en el gasto por compras de energía, mejora en la eficiencia, uso de energías alternativas, automatización y monitoreo, etc.).
+        p Los objetivos energéticos deben reflejar los resultados que la organización se propone alcanzar mediante su política energética, por lo tanto, deben ser coherentes y consistentes con dicha política y con los recursos disponibles por la organización. Estos objetivos deben plantear las visiones de corto y mediano plazo, y cada uno de ellos debe tener asociadas varias metas energéticas. De acuerdo con Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019), los objetivos pueden tener relación con temas de gestión (objetivos en capacitación y formación, responsabilidad social empresarial, objetivos asociados a los planes de acción, etc.), requisitos de las partes interesadas (por ejemplo, cumplimiento de certificación) o con aspectos energéticos (reducción de consumos energéticos, austeridad en el gasto por compras de energía, mejora en la eficiencia, uso de energías alternativas, automatización y monitoreo, etc.).
 
     .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-md-4.col-12(data-aos="fade-right")
@@ -474,12 +477,13 @@
               p.mb-0 De acuerdo con Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019), para la determinación de cada una de las metas energéticas se recomienda utilizar la metodología SMART de la siguiente manera:
 
     .row.justify-content-center.align-items-center.mb-5
-      //.col-12.col-md-10.titulo-sexto.color-acento-contenido.mt-3(data-aos="fade-left")
-      //  p.titulo.pb-0.mb-0 <b>Tabla 1.</b> <i>Metas energéticas</i>
+      .col-12.col-md-10
+        .titulo-sexto.color-acento-contenido.mt-3(data-aos="fade-left")
+          p.titulo.pb-0.mb-0 <b>Tabla 1.</b> <i>Metodología SMART, para determinación de las metas energéticas. </i>
       .col-12.col-md-10.px-0(data-aos="fade-down")
         .tabla-a.color-acento-botones 
           table
-            //caption Tabla de elaboración propia. Contenido tomado de Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019). Tabla No. 11. p. 67.
+            caption Tabla de elaboración propia. Contenido tomado de Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019). Tabla No. 11. p. 67.
             thead
               tr
                 th Característica de la Meta energética
@@ -537,8 +541,9 @@
     p.mt-5(data-aos="fade-left") En la siguiente tabla se muestra un ejemplo de objetivos, metas y planes de acción energéticos:
 
     .row.justify-content-center.align-items-center.mb-5.mt-5
-      //.col-12.col-md-10.titulo-sexto.color-acento-contenido.mt-3(data-aos="fade-left")
-      //  p.titulo.pb-0.mb-0 <b>Tabla 1.</b> <i>Metas energéticas</i>
+      .col-12.col-md-12
+      .titulo-sexto.color-acento-contenido.mt-3(data-aos="fade-left")
+        p.titulo.pb-0.mb-0 <b>Tabla 2.</b> <i>Ejemplo de objetivos, metas y planes de acción energéticos.</i>
       .col-12.col-md-12.px-0(data-aos="fade-down")
         .tabla-a.color-acento-botones 
           table
@@ -602,14 +607,14 @@
             figure
               img(src='@/assets/curso/temas/tema1/tema1-25.png', alt='')  
           .col-md-8.col-12
-            p Durante la etapa de planificación del SGEn, es de vital importancia determinar la cantidad y la forma en que se deben recolectar los datos requeridos para la operación del SGEn y verificación del desempeño energético de la organización, incluyendo el cumplimiento de los objetivos y metas energéticas. De la correcta definición y ejecución de la recopilación de datos energéticos, dependerá el resultado de la medición del desempeño energético que permitirá garantizar la mejora contínua del sistema de gestión de la energía.
+            p Durante la etapa de planificación del SGEn, es de vital importancia determinar la cantidad y la forma en que se deben recolectar los datos requeridos para la operación del SGEn y verificación del desempeño energético de la organización, incluyendo el cumplimiento de los objetivos y metas energéticas. De la correcta definición y ejecución de la recopilación de datos energéticos, dependerá el resultado de la medición del desempeño energético que permitirá garantizar la mejora continua del sistema de gestión de la energía.
             p Para realizar el seguimiento, medición y análisis del desempeño energético y del SGEn, se requiere definir un plan de medición apropiado al tamaño, complejidad y equipos de medición presentes o que puede adquirir la organización. Generalmente las pequeñas empresas (con bajos consumos energéticos) o las empresas que se encuentran iniciando la implementación de su SGE, el registro de consumos totales puede realizarse a través de las facturas de servicios públicos, y de los registros manuales de las planillas de mantenimiento de equipos. 
     
     p(data-aos="fade-right") En las empresas de mayor tamaño o grandes consumidores de energía generalmente se cuenta con un portal web dispuesto por el comercializador de energía donde se puede acceder para obtener los registros de los consumos por periodos de tiempo horario, diario o mensual.
 
     .row.justify-content-center.align-items-center.cajon.color--gris.py-2.mt-5(data-aos="fade-down")
       .col-md-8.col-12
-        p Adicionalmente para la recopilación de los datos energéticos se puede recurrir a la información del software y redes de automatización y control de procesos, control de iluminación, control de acceso, software de monitoreo de variables energéticas, etc. Independientemente del nivel de consumo de la empresa, es necesario el compromiso de la organización para la instalación de sistemas de submedición en los principales usos significativos de la energía como medida para garantizar la mejora contínua del desempeño energético y del SGEn.
+        p Adicionalmente para la recopilación de los datos energéticos se puede recurrir a la información del software y redes de automatización y control de procesos, control de iluminación, control de acceso, software de monitoreo de variables energéticas, etc. Independientemente del nivel de consumo de la empresa, es necesario el compromiso de la organización para la instalación de sistemas de submedición en los principales usos significativos de la energía como medida para garantizar la mejora continua del desempeño energético y del SGEn.
       .col-md-4.col-12
         figure
           img(src='@/assets/curso/temas/tema1/tema1-26.svg', alt='')
@@ -620,7 +625,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/tema1-27.svg', alt='')
       .col-md-8.col-lg-9.col-12
-        p Generalmente dentro del plan de recopilación de datos de la energía se realiza inicialmente una descripción de las fuentes de información disponibles en la empresa como por ejemplo facturas de energía, sistema de monitoreo de datos energéticos, sistemas de control y automatización, etc. Posteriormente se determina mediante un listado cada una de los datos que se deben recopilar dentro del plan de recolección con la siguiente información para cada uno de ellos:
+        p Generalmente dentro del plan de recopilación de datos de la energía se realiza inicialmente una descripción de las fuentes de información disponibles en la empresa como por ejemplo facturas de energía, sistema de monitoreo de datos energéticos, sistemas de control y automatización, etc. Posteriormente se determina mediante un listado cada uno de los datos que se deben recopilar dentro del plan de recolección con la siguiente información para cada uno de ellos:
         ul.lista-ul.mb-3
           li(data-aos="fade-down")
             i.fas.fa-angle-right
@@ -633,7 +638,7 @@
             | Frecuencia de recolección (diaria, semanal, mensual).
           li(data-aos="fade-down")
             i.fas.fa-angle-right
-            | Lugar donde se guardará la información registrada (base de datos, archivo en intranet, etc).
+            | Lugar donde se guardará la información registrada (base de datos, archivo en intranet, etc.).
           li(data-aos="fade-down")
             i.fas.fa-angle-right
             | Responsable de la recolección y registro.

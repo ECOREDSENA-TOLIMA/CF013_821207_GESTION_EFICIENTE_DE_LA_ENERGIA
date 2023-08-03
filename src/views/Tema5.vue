@@ -10,6 +10,9 @@
     p(data-aos="fade-right") ¿Cómo mejorar el sistema de gestión de energía? para conocer la respuesta le invitamos a explorar el siguiente recurso.
     p(data-aos="fade-right") Para que el sistema de gestión de la energía pueda mejorar su desempeño, la norma ISO 50001 determina como imprescindible los siguientes requisitos fundamentales: 
 
+    Separador
+    #t_5_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 5.1 No conformidad y Acción correctiva
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5.mt-5(data-aos="fade-down")
       .bloque-texto-g__img(
@@ -61,6 +64,8 @@
       
     .row.justify-content-center.align-items-center.mb-5.mt-4
       .col-12.col-md-10.px-0(data-aos="fade-down")
+        .titulo-sexto.color-acento-contenido.mt-3(data-aos="fade-left")
+          p.titulo.pb-0.mb-0 <b>Tabla 9.</b> <i>Metas indicativas de ahorro de energía 2017 - 2022.</i>
         .tabla-a.color-acento-botones 
           table
             caption Plan de acción indicativo PAI-PROURE 2017-2022 p. 45.
@@ -86,10 +91,6 @@
                 td Residencial
                 td 699.678
                 td 9.05%
-
-    Separador
-    #t_5_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
-      h2 5.1 No conformidad y Acción correctiva
 
     p(data-aos="fade-right") Algunos ejemplos de no conformidades son:
 
@@ -166,7 +167,7 @@
                 .col.mb-3.mb-sm-0
                   p.text-small En el siguiente enlace, se encuentra el documento #[i Guía con base en la norma ISO 50001:2018] publicado por la Unidad de Planeación Minero Energética (UPME) en el cual en el capítulo denominado #[strong "Mejora continua del SGE y tratamiento de no conformidades"] se encuentran algunos ejemplos de no conformidades y acciones correctivas para los sistemas de gestión de la energía. 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/2_MC_No Conformidades.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/2_MC_No_Conformidades.pdf')" target="_blank")
                     span Ver
                     i.fas.fa-link
 
@@ -181,7 +182,7 @@
         figure
           img(src='@/assets/curso/temas/tema5/tema5-08.png', alt='')
       .col-md-9.col-12.mb-4.mb-md-0(data-aos="fade-right")
-        p El concepto de mejora contínua está relacionado con el ciclo PHVA, por medio del cual todos los procesos se cumplen de una manera cíclica que permite que cada uno de los procesos y procedimientos se consoliden, se midan, se evalúen, y se ajusten de acuerdo a las necesidades de la organización y del sistema de gestión. Cuando se implementa un sistema de gestión de la energía, la organización debe mejorar de forma contínua la idoneidad, adecuación y eficacia de su sistema de gestión, con el objetivo principal de mejorar el desempeño energético.
+        p El concepto de mejora continua está relacionado con el ciclo PHVA, por medio del cual todos los procesos se cumplen de una manera cíclica que permite que cada uno de los procesos y procedimientos se consoliden, se midan, se evalúen, y se ajusten de acuerdo a las necesidades de la organización y del sistema de gestión. Cuando se implementa un sistema de gestión de la energía, la organización debe mejorar de forma continua la idoneidad, adecuación y eficacia de su sistema de gestión, con el objetivo principal de mejorar el desempeño energético.
 
     p(data-aos="fade-right") ¿Cómo puede la organización demostrar la mejora del desempeño energético y del SGEn?
 
@@ -210,9 +211,9 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/tema5-10.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0.text-small El término "contínua" no implica que por ejemplo que todos los días se debe cumplir con los valores establecidos para la eficiencia energética, ya que se entiende que se pueden tener variaciones en los resultados dependiendo de las situaciones que enfrenta la organización o compañía en su día a día. Estas desviaciones se consideran normales y se pueden sustentar con las herramientas dispuestas por el sistema de gestión. Lo realmente importante es que la mejora ocurra periódicamente en el tiempo y sea una tendencia general. Es decir, si en uno o dos meses del año una organización no cumplió con su meta de reducción de consumo de energía debido a una situación no prevista, pero los demás meses del año si cumplió con sus metas y objetivos, se puede afirmar que efectivamente se demuestra la mejora contínua de su desempeño energético. Por otro lado, se espera que se tome en cuenta esta situación no prevista para ser incorporada dentro de los planes de acción del SGEn.
+        p.mb-0.text-small El término "continua" no implica que por ejemplo que todos los días se debe cumplir con los valores establecidos para la eficiencia energética, ya que se entiende que se pueden tener variaciones en los resultados dependiendo de las situaciones que enfrenta la organización o compañía en su día a día. Estas desviaciones se consideran normales y se pueden sustentar con las herramientas dispuestas por el sistema de gestión. Lo realmente importante es que la mejora ocurra periódicamente en el tiempo y sea una tendencia general. Es decir, si en uno o dos meses del año una organización no cumplió con su meta de reducción de consumo de energía debido a una situación no prevista, pero los demás meses del año si cumplió con sus metas y objetivos, se puede afirmar que efectivamente se demuestra la mejora continua de su desempeño energético. Por otro lado, se espera que se tome en cuenta esta situación no prevista para ser incorporada dentro de los planes de acción del SGEn.
 
-    p(data-aos="fade-right") La norma ISO 50001 describe algunos casos (pero no se limita a solo estos casos) donde se demuestra la mejora contínua del desempeño energético:
+    p(data-aos="fade-right") La norma ISO 50001 describe algunos casos (pero no se limita a solo estos casos) donde se demuestra la mejora continua del desempeño energético:
 
     .row.justify-content-center.align-items-center.mb-5.mt-4
       .col-12.col-md-10.px-0(data-aos="fade-down")
@@ -276,7 +277,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/tema5-12.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Con el fin de observar casos de éxito en la aplicación de lo sistemas de gestión de la energía y la ejecución de proyectos de eficiencia energética en aplicaciones de la industria colombiana, a continuación se muestran algunos de ellos realizados en el marco del Proyecto de eficiencia energética industrial en Colombia 2016 - 2019 promovido por el Ministerio de Minas y Energía, la Unidad de Planeación Minero Energética (UPME), la Organización de las Naciones Unidas para el Desarrollo Industrial (ONUDI) y el Fondo Global del Ambiente (GEF):
+        p.mb-0 Con el fin de observar casos de éxito en la aplicación de los sistemas de gestión de la energía y la ejecución de proyectos de eficiencia energética en aplicaciones de la industria colombiana, a continuación se muestran algunos de ellos realizados en el marco del Proyecto de eficiencia energética industrial en Colombia 2016 - 2019 promovido por el Ministerio de Minas y Energía, la Unidad de Planeación Minero Energética (UPME), la Organización de las Naciones Unidas para el Desarrollo Industrial (ONUDI) y el Fondo Global del Ambiente (GEF):
 
 
     .row.justify-content-center.align-items-center.mb-5.mt-4

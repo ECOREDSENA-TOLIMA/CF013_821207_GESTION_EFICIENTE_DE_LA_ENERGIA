@@ -89,10 +89,12 @@
         div.px-3.pe-5
           h4.mb-0 PASO 3
 
-    p(data-aos="fade-right") Realizar la evaluación del cumplimiento de los requisitos legales y otros requisitos. La organización debe tener un procedimiento para la evaluación del cumplimiento de los requisitos legales y otros requisitos relacionados con el desempeño energético, el consumo y uso de la energía y el SGEn . Dicho procedimiento debe indicar la metodología de evaluación de los requisitos y la frecuencia en que se realizará dicha evaluación. La información resultante de la evaluación de los requisitos legales y otros requisitos debe quedar debidamente documentada.
+    p(data-aos="fade-right") Realizar la evaluación del cumplimiento de los requisitos legales y otros requisitos. La organización debe tener un procedimiento para la evaluación del cumplimiento de los requisitos legales y otros requisitos relacionados con el desempeño energético, el consumo y uso de la energía y el SGEn. Dicho procedimiento debe indicar la metodología de evaluación de los requisitos y la frecuencia en que se realizará dicha evaluación. La información resultante de la evaluación de los requisitos legales y otros requisitos debe quedar debidamente documentada.
 
     .row.justify-content-center.align-items-center.mb-5.mt-4
       .col-12.col-md-12.px-0(data-aos="fade-down")
+        .titulo-sexto.color-acento-contenido.mt-3(data-aos="fade-left")
+          p.titulo.pb-0.mb-0 <b>Tabla 7.</b> <i>Matriz de requisitos legales y otros requisitos.</i>
         .tabla-b.color-acento-contenido 
           .tabla-b__header
             h4.mb-0 MATRIZ DE REQUISITOS LEGALES Y OTROS REQUISITOS
@@ -133,6 +135,8 @@
 
     .row.justify-content-center.align-items-center.mb-5.mt-4
       .col-12.col-md-12.px-0(data-aos="fade-down")
+        .titulo-sexto.color-acento-contenido.mt-3(data-aos="fade-left")
+          p.titulo.pb-0.mb-0 <b>Tabla 8.</b> <i>Registro de seguimiento y evaluación del cumplimiento de requisitos legales y otros requisitos.</i>
         .tabla-b.color-acento-contenido 
           .tabla-b__header
             h4.mb-0 MATRIZ DE REQUISITOS LEGALES Y OTROS REQUISITOS
@@ -265,7 +269,7 @@
         ul.lista-ul.mb-3
           li(data-aos="fade-down")
             i.fas.fa-caret-right
-            | Detección y registro de No Conformidades y desviaciones, para que posteriormente la organización les de solución oportuna y efectiva mediante la ejecución de un sistema de acciones correctivas.
+            | Detección y registro de No Conformidades y desviaciones, para que posteriormente la organización les dé solución oportuna y efectiva mediante la ejecución de un sistema de acciones correctivas.
           li(data-aos="fade-down")
             i.fas.fa-caret-right
             | Identificación de oportunidades de mejora en el SGEn.
@@ -353,7 +357,7 @@
         figure
           img(src='@/assets/curso/temas/tema4/tema4-15.png', alt='')
       .col-md-9.col-12.mb-4.mb-md-0
-        p Es muy importante conocer cuál es la información que se debe brindar a la alta dirección para que pueda realizar la revisión. La siguientes son las entradas mínimas relativas al desempeño energético que se deben incluir:
+        p Es muy importante conocer cuál es la información que se debe brindar a la alta dirección para que pueda realizar la revisión. Las siguientes son las entradas mínimas relativas al desempeño energético que se deben incluir:
         ul.lista-ul.mb-3
           li(data-aos="fade-down")
             i.fas.fa-caret-right

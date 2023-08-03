@@ -22,7 +22,7 @@
 
     .row.justify-content-center.align-items-center.mt-4.pt-4(style="background-color:#F7F4FF")
       .col-12.col-md-8
-        p(data-aos="fade-right") La organización debe planificar, implementar y controlar, en relación a sus Usos Significativos de la Energía, en el siguiente recurso usted podrá identificar todo lo relacionado con el control operacional y el mantenimiento.
+        //- p(data-aos="fade-right") La organización debe planificar, implementar y controlar, en relación a sus Usos Significativos de la Energía, en el siguiente recurso usted podrá identificar todo lo relacionado con el control operacional y el mantenimiento.
         p(data-aos="fade-right") La organización debe planificar, implementar y controlar, en relación a sus Usos Significativos de la Energía (USE), los procesos, procedimientos, guías y demás documentos necesarios para alcanzar el desempeño energético deseado y ejecutar los planes de acción que haya determinado para alcanzar sus objetivos y metas energéticas. 
         p(data-aos="fade-right") Las acciones que la organización debe realizar para cumplir con un control operacional adecuado son:
       .col-md-4.col-12(data-aos="fade-down")
@@ -115,7 +115,7 @@
                 .col.mb-3.mb-sm-0
                   p.text-small En el siguiente enlace, se encuentra el documento #[strong Guía con base en la norma ISO 50001:2018] publicado por la Unidad de Planeación Minero Energética (UPME) en el cual en el capítulo denominado “Operación de un SGE” se encuentra un ejemplo de la implementación del control operacional y de mantenimiento para los sistemas de gestión de la energía. 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/1_MC_Control Operacional.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/1_MC_Control_Operacional.pdf')" target="_blank")
                     span Ver
                     i.fas.fa-link
 
@@ -261,6 +261,8 @@
 
     .row.justify-content-center.align-items-center.mb-5.mt-4
       .col-12.col-md-12.px-0(data-aos="fade-down")
+        .titulo-sexto.color-acento-contenido.mt-3(data-aos="fade-left")
+          p.titulo.pb-0.mb-0 <b>Tabla 6.</b> <i>Ejemplo de compra de aire acondicionado para oficinas.</i>
         .tabla-a.color-acento-botones 
           table
             thead
