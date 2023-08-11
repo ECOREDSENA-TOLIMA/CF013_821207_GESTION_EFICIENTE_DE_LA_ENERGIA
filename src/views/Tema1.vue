@@ -150,31 +150,31 @@
 
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-down") 
       PasosB.color-acento-contenido
-        .row
+        .row.cs-me-5
           .col-md-6.mb-4.mb-md-0
             p La revisión energética es considerada como la base para el proceso de planificación de los SGEn, y se da como el resultado del análisis de los datos energéticos y productivos de la organización como por ejemplo las facturas de consumos energéticos, registro de mediciones energéticas, planos unifilares, planos de las instalaciones, diagramas productivos, registro de producción, datos de los equipos consumidores de energía, entre otros. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-50.png', alt='')
-        .row
+        .row.cs-me-5
           .col-md-6.mb-4.mb-md-0
             p En algunas organizaciones especialmente industriales, se acostumbra realizar auditorías energéticas (son diferentes a las auditorías internas de los sistemas de gestión integrado) con el fin de identificar potenciales medidas para el ahorro y uso eficiente de la energía. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-51.png', alt='')
-        .row
+        .row.cs-me-5
           .col-md-6.mb-4.mb-md-0
             p La metodología para este tipo de auditorías está determinada por la norma NTC:ISO 50002 Auditorías Energéticas, dentro de las cuales existen diferentes tipos dependiendo del nivel de complejidad y los requerimientos de la organización. Las auditorías energéticas que ha realizado la organización previamente al inicio de la implementación del SGEn, se pueden integrar como parte de la revisión energética.  
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-52.png', alt='')
-        .row
+        .row.cs-me-5
           .col-md-6.mb-4.mb-md-0
             p La revisión energética debe estar actualizada a intervalos planificados, y adicionalmente se debe realizar una vez existan cambios significativos en el uso y consumo de la energía como por ejemplo el reemplazo de algún energético o el cambio de tecnología de alguna línea de producción completa.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-53.png', alt='')
-        .row
+        .row.cs-me-5
           .col-md-6.mb-4.mb-md-0
             p De acuerdo con la Norma ISO 50001, la información que se debe obtener del proceso de revisión energética es la siguiente: 
             p - Análisis del uso y consumo de la energía con base al análisis de mediciones y otras fuentes de información, para obtener la identificación de los tipos de energía usados actualmente, y la evaluación del uso y consumo de la energía en el pasado y en la actualidad. 
@@ -182,7 +182,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-54.png', alt='')
-        .row
+        .row.cs-me-5
           .col-md-6.mb-4.mb-md-0
             p - Identificación y cuantificación de Usos Significativos de la Energía (USE), definidos como aquellos que tienen un consumo sustancial de energía o que ofrecen un alto potencial de mejora en el desempeño, puntos en los cuales se debe enfocar la gestión. 
             p - Para cada USE se deben determinar el desempeño energético o nivel de eficiencia actual, las variables relevantes, e identificar las personas que influyen directamente en su operación. 
@@ -545,7 +545,7 @@
       .titulo-sexto.color-acento-contenido.mt-3(data-aos="fade-left")
         p.titulo.pb-0.mb-0 <b>Tabla 2.</b> <i>Ejemplo de objetivos, metas y planes de acción energéticos.</i>
       .col-12.col-md-12.px-0(data-aos="fade-down")
-        .tabla-a.color-acento-botones 
+        .tabla-a.color-acento-botones.tabla2
           table
             thead
               tr
