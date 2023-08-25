@@ -167,7 +167,8 @@
                 .col.mb-3.mb-sm-0
                   p.text-small En el siguiente enlace, se encuentra el documento #[i Guía con base en la norma ISO 50001:2018] publicado por la Unidad de Planeación Minero Energética (UPME) en el cual en el capítulo denominado #[strong "Mejora continua del SGE y tratamiento de no conformidades"] se encuentran algunos ejemplos de no conformidades y acciones correctivas para los sistemas de gestión de la energía. 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/2_MC_No_Conformidades.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://www1.upme.gov.co/DemandaEnergetica/EEIColombia/Guia_estructura_ISO50001.pdf" target="_blank")
+                  //- a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/2_MC_No_Conformidades.pdf')" target="_blank")
                     span Ver
                     i.fas.fa-link
 
@@ -338,7 +339,8 @@
                 .col.mb-3.mb-sm-0
                   p.text-small Adicionalmente se recomienda revisar el material complementario respecto a las buenas prácticas para los edificios de oficinas descritas en el documento #[strong Guía de Planes de Gestión Eficiente de la Energía en Entidades Públicas, publicado por la UPME,] en el cual se pueden determinar algunas medidas para el uso racional y eficiente de la energía para edificios de oficinas. 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/9_MC_Buenas_Practicas.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://www1.upme.gov.co/DemandayEficiencia/Documents/Guia_liviana_PGEE.pdf" target="_blank")
+                  //- a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/9_MC_Buenas_Practicas.pdf')" target="_blank")
                     span Ver
                     i.fas.fa-link
 
