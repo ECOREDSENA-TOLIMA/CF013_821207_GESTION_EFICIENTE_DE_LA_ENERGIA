@@ -9,7 +9,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="A lo largo de este componente formativo  se abordaron cinco unidades, cada una con aspectos diferentes, que permitieron conocer las características y beneficios de la  Planificación y Mejora Continua del Sistema de Gestión de la Energía.")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen del mapa de la síntesis de la información presentada. Planificación y Mejora Continua del Sistema de Gestión de la Energía.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
